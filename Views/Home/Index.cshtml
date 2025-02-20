@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technovyn Innovations</title>
+    <link rel="stylesheet" href="~/css/Index.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Main Section -->
+    <main>
+        <section id="home">
+            <h1>Revolutionizing Hotel Operations with Cutting-Edge IT Solutions</h1>
+            <p>Enhance guest experience, streamline operations, and boost efficiency with our innovative products.</p>
+            <button><a asp-controller="Home" asp-action="Products" style="color: white;font-weight: bold; font-size: 16px; text-decoration: none;">Discover Our Products</a></button>
+        
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-container">
+                <!-- Scan-Inn -->
+                <div class="product-card">
+                
+                    <h3 style="color: #047b7f;">Scan-Inn</h3>
+                    <div class="carousel-container" id="carousel-scaninn">
+                        <div class="carousel-slide">
+                            <img src="/Images/scanInn1.jpg" alt="ScanInn Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/scanInn2.jpg" alt="ScanInn Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/scanInn3.jpg" alt="ScanInn Image 3">
+                        </div>
+                    </div>
+                    <p>Effortless check-ins with document scanning and digital registration for hassle-free hotel check-ins.
+                        Select room preferences and amenities in advance. Reduces Front Desk workload. Instant sync with PMS.
+                        Integraton with Email and Whats app for seemless communication.
+
+
+                    </p>
+                    <a asp-controller="Home" asp-action="Products">Know More</a>
+
+                </div>
+
+                <!-- Staflo -->
+                <div class="product-card">
+                    <h3 style="color:  #047b7f;">Staflo</h3>
+                    <div class="carousel-container" id="carousel-staflo">
+                        <div class="carousel-slide">
+                            <img src="/Images/Staflo1.jpg" alt="Staflo Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/Staflo2.jpg" alt="Staflo Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/Staflo3.jpg" alt="Staflo Image 3">
+                        </div>
+                    </div>
+                    <p>iPad-based document scanning and signature solution for seamless, contactless check-ins.</p>
+                    <a asp-controller="Home" asp-action="Products">Know More</a>
+
+                </div>
+
+                <!-- StayMate -->
+                <div class="product-card">
+                    <h3 style="color:  #047b7f;">StayMate</h3>
+                    <div class="carousel-container" id="carousel-staymate">
+                        <div class="carousel-slide">
+                            <img src="/Images/image1.jpg" alt="StayMate Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/image2.jpg" alt="StayMate Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/image3.jpg" alt="StayMate Image 3">
+                        </div>
+                    </div>
+                    <p>Enhance guest experience with intuitive, contactless check-in and checkout solutions.</p>
+                    <a asp-controller="Home" asp-action="Products">Know More</a>
+
+                </div>
+                <!-- OpTracker -->
+                <div class="product-card">
+                    <h3 style="color:  #047b7f;">OpTracker</h3>
+                    <div class="carousel-container" id="carousel-staymate">
+                        <div class="carousel-slide">
+                            <img src="/Images/OpTracker1.jpg" alt="OpTracker Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/OpTracker2.jpg" alt="OpTracker Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="/Images/OpTracker3.jpg" alt="OpTracker Image 3">
+                        </div>
+                    </div>
+                    <p>Your centralized hub for real-time dashboards and actionable insights, streamlining operations across Scan-Inn, Staflo, and StayMate.</p>
+                    <a asp-controller="Home" asp-action="Products">Know More</a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Key Benefits Section -->
+    <section id="benefits">
+        <h2>Key Benefits</h2>
+        <div class="benefit">
+            <img src="/Images/image1.jpg" alt="Benefit 1">
+            <p>Streamlined Check-In</p>
+        </div>
+        <div class="benefit">
+            <img src="/Images/OpTracker1.jpg" alt="Benefit 2">
+            <p>Efficient Staff Management</p>
+        </div>
+        <div class="benefit">
+            <img src="/Images/image3.jpg" alt="Benefit 3">
+            <p>Enhanced Guest Experience</p>
+        </div>
+    </section>
+    <script>
+                let currentSlide = 0;
+
+        function moveSlide(direction) {
+            const slides = document.querySelectorAll('.carousel-slide');
+            slides[currentSlide].classList.remove('active'); // Remove active class from the current slide
+            currentSlide = (currentSlide + direction + slides.length) % slides.length; // Update currentSlide index
+            slides[currentSlide].classList.add('active'); // Add active class to the new slide
+        }
+
+        // Initialize the carousel
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.carousel-slide');
+            slides.forEach((slide, index) => {
+                slide.classList.add('inactive'); // Add inactive class to all slides
+                if (index === 0) slide.classList.add('active'); // Add active class to the first slide
+            });
+
+            // Start auto-sliding
+            setInterval(() => {
+                moveSlide(1); // Move to the next slide
+            }, 3000); // Change slides every 3 seconds
+        });
+
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+
+        // JavaScript for carousels
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousels = document.querySelectorAll('.carousel-container');
+
+            carousels.forEach((carousel) => {
+                let currentSlide = 0;
+                const slides = carousel.querySelectorAll('.carousel-slide');
+
+                // Initialize the slides
+                slides.forEach((slide, index) => {
+                    slide.classList.add('inactive'); // Add inactive class to all slides
+                    if (index === 0) slide.classList.add('active'); // Add active class to the first slide
+                });
+
+                // Function to move slides
+                function moveSlide(direction) {
+                    slides[currentSlide].classList.remove('active'); // Remove active class from the current slide
+                    currentSlide = (currentSlide + direction + slides.length) % slides.length; // Update currentSlide index
+                    slides[currentSlide].classList.add('active'); // Add active class to the new slide
+                }
+
+                // Start auto-sliding
+                setInterval(() => {
+                    moveSlide(1); // Move to the next slide
+                }, 3000); // Change slides every 3 seconds
+            });
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\appsettings.Development.json
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\appsettings.json
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\Technovyn Innovation.staticwebassets.runtime.json
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\Technovyn Innovation.staticwebassets.endpoints.json
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\Technovyn Innovation.exe
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\Technovyn Innovation.deps.json
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\Technovyn Innovation.runtimeconfig.json
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\Technovyn Innovation.dll
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\Technovyn Innovation.pdb
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\BouncyCastle.Cryptography.dll
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\MailKit.dll
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\MimeKit.dll
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\System.Security.Cryptography.Pkcs.dll
+Y:\Technovyn\3\Technovyn Innovation\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.csproj.AssemblyReference.cache
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.AssemblyInfoInputs.cache
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.AssemblyInfo.cs
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.csproj.CoreCompileInputs.cache
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.MvcApplicationPartsAssemblyInfo.cache
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.RazorAssemblyInfo.cache
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.RazorAssemblyInfo.cs
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\scopedcss\bundle\Technovyn Innovation.styles.css
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\scopedcss\projectbundle\Technovyn Innovation.bundle.scp.css
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets.build.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets.development.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets.build.endpoints.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets\msbuild.Technovyn Innovation.Microsoft.AspNetCore.StaticWebAssets.props
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets\msbuild.Technovyn Innovation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets\msbuild.build.Technovyn Innovation.props
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.Technovyn Innovation.props
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.Technovyn Innovation.props
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets.pack.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovy.D3C84736.Up2Date
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\refint\Technovyn Innovation.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.pdb
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.genruntimeconfig.cache
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\ref\Technovyn Innovation.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\Technovyn Innovation.sourcelink.json

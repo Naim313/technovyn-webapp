@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technovyn Innovations</title>
+    <link rel="stylesheet" href="~/css/Contact.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <p>We'd love to hear from you!</p>
+        <h2>Get in Touch</h2>
+
+        <!-- Form for submitting contact details -->
+        <form id="contactForm" method="post" asp-controller="ContactUs" asp-action="SendEmail">
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="name" required />
+            </div>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="email" required />
+            </div>
+            <div>
+                <label for="Subject">Subject:</label>
+                <input type="text" id="Subject" name="subject" required />
+            </div>
+            <div>
+                <label for="Message">Message:</label>
+                <textarea id="Message" name="message" required></textarea>
+            </div>
+            <button type="submit" style="font-size: 15px; font-weight: bold; color: #047b7f">Send Message</button>
+
+        </form>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+
+    </section>
+
+    <!-- Address Section -->
+    <section id="address" style="margin-top: 10px">
+        <h2>Our Address</h2>
+        <p><strong>Technovyn Innovations<br>123 Innovation Drive <br>Tech City, TC 12345</strong></p>
+
+       @*  <p>123 Innovation Drive</p>
+        <p>Tech City, TC 12345</p> *@
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media">
+        <h2>Follow Us</h2>
+        <p>Stay connected with us on social media!</p>
+        <ul>
+            <li><a href="https://www.facebook.com/TechnovynInnovations" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.twitter.com/TechnovynInnov" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/company/technovyn-innovations" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>

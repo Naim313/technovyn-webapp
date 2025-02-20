@@ -1,0 +1,12 @@
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\Technovyn Innovation.exe
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\appsettings.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\Technovyn Innovation.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\Technovyn Innovation.deps.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\Technovyn Innovation.runtimeconfig.json
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\Technovyn Innovation.pdb
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\BouncyCastle.Cryptography.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\MailKit.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\MimeKit.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.Pkcs.dll
+Y:\Technovyn\3\Technovyn Innovation\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

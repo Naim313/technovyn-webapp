@@ -1,0 +1,157 @@
+﻿/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Contact Container */
+.contact-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+    padding: 10px;
+}
+
+/* Form Styling */
+.contact-form {
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #34495e;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+    input:focus, textarea:focus {
+        border-color: #3498db;
+        outline: none;
+    }
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+    .submit-btn:hover {
+        background-color: #2980b9;
+    }
+
+/* Contact Info Section */
+.contact-info {
+    margin-top: 40px;
+    text-align: left;
+}
+
+    .contact-info h2 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: #2c3e50;
+    }
+
+    .contact-info p {
+        font-size: 1.1em;
+        margin-bottom: 8px;
+        color: #7f8c8d;
+    }
+
+/* Social Media Section */
+.social-media {
+    margin-top: 40px;
+    text-align: center;
+}
+
+    .social-media h2 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: #2c3e50;
+    }
+
+    .social-media ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .social-media ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+    .social-media a {
+        text-decoration: none;
+        color: #3498db;
+        font-size: 1.2em;
+        transition: color 0.3s;
+    }
+
+        .social-media a:hover {
+            color: #2980b9;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<h2>Contact Us</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form id="contactForm" method="post" asp-controller="ContactUs" asp-action="SendEmail">
+    <div>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="name" required />
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="email" required />
+    </div>
+    <div>
+        <label for="Subject">Subject:</label>
+        <input type="text" id="Subject" name="subject" required />
+    </div>
+    <div>
+        <label for="Message">Message:</label>
+        <textarea id="Message" name="message" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+</form>

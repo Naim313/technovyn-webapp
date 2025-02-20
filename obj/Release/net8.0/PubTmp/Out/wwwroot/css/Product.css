@@ -1,0 +1,128 @@
+﻿/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #047b7f;
+}
+
+/* Header */
+header h1 {
+    font-size: 1.8rem;
+}
+
+header nav a {
+    font-size: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    header nav a.fw-bold {
+        text-decoration: underline;
+    }
+
+/* Products Section */
+main h2 {
+    color: #047b7f;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+blockquote {
+    font-size: 0.9rem;
+    color: #666;
+    border-left: 4px solid #004080;
+    padding-left: 10px;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Product Names */
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #004080;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #004080;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #004080;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    .btn-primary:hover {
+        background-color: #002d5a;
+        transform: scale(1.05);
+    }
+
+.btn-outline-primary {
+    color: #004080;
+    border: 2px solid #004080;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #004080;
+        color: #ffffff;
+        transform: scale(1.05);
+    }
+
+/* Button Alignment in Footer */
+.card-footer .btn {
+    margin: 5px 10px;
+}
+
+/* Button Focus State */
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 64, 128, 0.5);
+}
+
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    color: #047b7f; /* Adjusted to match your inline style */
+}

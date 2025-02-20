@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technovyn Innovations</title>
+    <link rel="stylesheet" href="~/css/Product.css"> <!-- Link to your CSS file -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+</head>
+@* <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products | Technovyn Innovations</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Product.css">
+</head> *@
+<body>
+    <!-- Header -->
+   @*  <header class="bg-primary text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 mb-0">Technovyn Innovations</h1>
+            <nav>
+                <a href="#" class="text-white text-decoration-none me-3">Home</a>
+                <a href="#" class="text-white text-decoration-none me-3">About</a>
+                <a href="#" class="text-white text-decoration-none fw-bold">Products</a>
+                <a href="#" class="text-white text-decoration-none">Contact</a>
+            </nav>
+        </div>
+    </header> *@
+
+<!-- Products Section -->
+<main class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Our Products</h2>
+        <div class="row g-5">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-header text-center bg-light">
+                            <h3 style="color: #047b7f; font-weight: bold; font-size: 24px;">Scan-Inn</h3>
+                    </div>
+                    <div id="carouselScanInn" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/Images/scanInn1.jpg" class="d-block w-100" alt="Scan-Inn Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Images/scanInn2.jpg" class="d-block w-100" alt="Scan-Inn Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Images/scanInn3.jpg" class="d-block w-100" alt="Scan-Inn Image 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Effortless check-ins</strong> with document scanning and digital registration for hassle-free hotel check-ins.</p>
+                        <h5>Key Features:</h5>
+                        <ul>
+                            <li>Automated passport and ID scanning.</li>
+                            <li>Digital signature integration.</li>
+                            <li>Real-time guest data validation.</li>
+                            <li>Multi-language support.</li>
+                        </ul>
+                        <h5>Benefits:</h5>
+                        <ul>
+                            <li>Streamlines the check-in process, reducing wait times.</li>
+                            <li>Ensures data accuracy and compliance with local regulations.</li>
+                        </ul>
+                        <h5>Integrations:</h5>
+                        <p>Compatible with PMS like Opera and Cloudbeds.</p>
+                        @* <h5>Testimonials:</h5>
+                        <blockquote class="blockquote">
+                            “Scan-Inn has significantly reduced our front desk workload while enhancing guest satisfaction.”
+                            <footer class="blockquote-footer">General Manager, Luxury Stay Hotel</footer>
+                        </blockquote>
+                        <h5>Pricing:</h5>
+                        <ul>
+                            <li><strong>Basic:</strong> $50/month</li>
+                            <li><strong>Pro:</strong> $100/month (includes advanced analytics)</li>
+                        </ul> *@
+                    </div>
+                    <div class="card-footer text-center bg-light">
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary me-2">Request a Demo</a>
+
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-header text-center bg-light">
+                            <h3 style="color:  #047b7f; font-weight: bold; font-size: 24px;">Staflo</h3>
+                    </div>
+                    <div id="carouselStaflo" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="~/Images/Staflo1.jpg" class="d-block w-100" alt="Staflo Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Images/Staflo2.jpg" class="d-block w-100" alt="Staflo Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Images/Staflo3.jpg" class="d-block w-100" alt="Staflo Image 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>An <strong>iPad-based document scanning and signature solution</strong> for seamless, contactless check-ins.</p>
+                        <h5>Key Features:</h5>
+                        <ul>
+                            <li>Contactless check-in process.</li>
+                            <li>Real-time document verification.</li>
+                            <li>Optimized for iPad devices.</li>
+                        </ul>
+                        <h5>Benefits:</h5>
+                        <ul>
+                            <li>Reduces physical contact during check-ins.</li>
+                            <li>Enhances guest safety and convenience.</li>
+                        </ul>
+                       @*  <h5>Pricing:</h5>
+                        <ul>
+                            <li><strong>Standard:</strong> $40/month</li>
+                            <li><strong>Premium:</strong> $80/month (includes customization options)</li>
+                        </ul> *@
+                    </div>
+                    <div class="card-footer text-center bg-light">
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary me-2">Request a Demo</a>
+
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-header text-center bg-light">
+                            <h3 style="color:  #047b7f; font-weight: bold; font-size: 24px;">StayMate</h3>
+                    </div>
+                    <div id="carouselStayMate" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/Images/image1.jpg" class="d-block w-100" alt="StayMate Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Images/image2.jpg" class="d-block w-100" alt="StayMate Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Images/image3.jpg" class="d-block w-100" alt="StayMate Image 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Enhance guest experience</strong> with intuitive, contactless check-in and checkout solutions.</p>
+                            <h5>Key Features:</h5>
+                            <ul>
+                                <li>Contactless check-in process.</li>
+                                <li>Real-time document verification.</li>
+                                <li>Optimized for iPad devices.</li>
+                            </ul>
+                        <h5>Benefits:</h5>
+                        <ul>
+                            <li>Streamlined check-in and checkout process.</li>
+                            <li>Increased guest satisfaction.</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-center bg-light">
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary me-2">Request a Demo</a>
+
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+                <!-- Product 4 -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-header text-center bg-light">
+                            <h3 style="color: #047b7f; font-weight: bold; font-size: 24px;">OpTracker</h3>
+                        </div>
+                        <div id="carouselStayMate" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/Images/OpTracker1.jpg" class="d-block w-100" alt="OpTracker Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/Images/OpTracker2.jpg" class="d-block w-100" alt="OpTracker Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/Images/OpTracker3.jpg" class="d-block w-100" alt="OpTracker Image 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Enhance guest experience</strong> with intuitive, contactless check-in and checkout solutions.</p>
+                            <h5>Key Features:</h5>
+                            <ul>
+                                <li>Get live updates on every task and project.</li>
+                                <li>Personalize your metrics and views.</li>
+                                <li>Stay informed with instant notifications.</li>
+                            </ul>
+                            <h5>Benefits:</h5>
+                            <ul>
+                                <li>Streamline workflows and accelerate operations.</li>
+                                <li>Turn data into actionable insights.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center bg-light">
+                            <a href="#" class="btn btn-primary me-2">Request a Demo</a>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
